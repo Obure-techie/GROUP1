@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    background: linear-gradient(to right, #f18295, #F7C6C7, #FFF5F5, #FFFFFF);
+    overflow: hidden; 
+}
+
+.navbar {
+    display: flex;
+    background: linear-gradient(to right, #f18295, #F7C6C7, #FFF5F5, #FFFFFF);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 10vh; 
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo h1 {
+    color: aqua;
+    font-size: 24px;
+}
+
+.navcontent ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navcontent ul li a {
+    color: #0c0c0c;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navcontent ul li a:hover {
+    color: rgb(241, 174, 31);
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    height: 90vh; 
+}
+
+.note {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.note h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.image {
+    flex: 1;
+    height: 90vh; 
+    overflow: hidden;
+}
+
+.image img {
+    height: 100%; 
+    width: 600px; 
+    object-fit: cover;
+}
+
