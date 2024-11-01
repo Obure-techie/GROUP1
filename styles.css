@@ -4,36 +4,42 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Playfair Display", serif;
-    background: linear-gradient(to right, #f18295, #F7C6C7, #FFF5F5, #FFFFFF);
+    background: linear-gradient(to left, #f5f5dc, #d4a373, #5e4638);
     overflow: hidden; 
 }
 
+/* Navbar Styling */
 .navbar {
     display: flex;
-    background: linear-gradient(to right, #f18295, #F7C6C7, #FFF5F5, #FFFFFF);
-    justify-content: space-between;
     align-items: center;
+    background: linear-gradient(to left, #f5f5dc, #d4a373, #5e4638);
     padding: 10px 20px;
     height: 10vh; 
 }
 
-.navmenu {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.logo img {
+    height: 80px;
+    width: 125px;
+    margin: 0;
+    padding-top: 20px;
+
 }
 
-.logo h1 {
-    color: aqua;
-    font-size: 24px;
+/* Nav Menu Styling */
+.navmenu {
+    display: flex;
+    justify-content: flex-end;/* Aligns the menu to the right */
+    width: 100%;
+    margin-left: 30px; /* Space between logo and menu */
 }
 
 .navcontent ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
 }
 
 .navcontent ul li a {
@@ -44,10 +50,11 @@ body {
 }
 
 .navcontent ul li a:hover {
-    color: rgb(241, 174, 31);
+    color: #f5f5dc;
     text-decoration: underline;
 }
 
+/* Main Content Styling */
 .container {
     display: flex;
     height: 90vh; 
@@ -79,4 +86,28 @@ body {
     width: 600px; 
     object-fit: cover;
 }
+/* our menu styling */
+button {
+    background-color: #f5f5dc; /* beige */
+    color: #5e4638; /* brown */
+    border: 2px solid #5e4638;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+button:hover {
+    background-color: #5e4638;
+    color: #f5f5dc;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(-1px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
