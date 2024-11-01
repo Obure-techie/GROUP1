@@ -9,6 +9,9 @@ body {
     font-family: "Playfair Display", serif;
     background: linear-gradient(to left, #f5f5dc, #d4a373, #5e4638);
     overflow: hidden; 
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
 }
 
 /* Navbar Styling */
@@ -110,4 +113,33 @@ button:hover {
 button:active {
     transform: translateY(-1px);
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+.breakfast {
+    display: flex;
+    align-items: flex-start;
+}
+
+.breakfast img {
+    width: 150px; /* Adjust image size as needed */
+    margin-right: 20px; /* Space between image and list */
+}
+
+.breakfast ul {
+    list-style: none;
+    padding: 0 0 0 20px; /* Space between border and text */
+    position: relative;
+}
+
+.breakfast ul::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;    /* Start of border */
+    bottom: 10px; /* End of border */
+    width: 2px;   /* Thickness of the border */
+    background-color: #000; /* Border color */
+}
+
+.breakfast ul li {
+    margin-bottom: 18px; /* Adjust the spacing as needed */
 }
