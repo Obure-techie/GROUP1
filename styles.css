@@ -198,3 +198,209 @@ button:active {
 }
 
 /* SPECIALS WEBPAGE */
+.main-course img,
+.appetizer img,
+.beverage img,
+.kids-special img{
+    width: 300px;
+    height: 290px;
+}
+
+/* ORDER ONLINE WEBSITE */
+.orders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.orders form {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+
+}
+
+/* Styling form sections */
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0c0c0c;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #212020;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5f5dc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #f5f5dc; /* beige */
+    color: #5e4638; /* brown */
+    border: 2px solid #5e4638;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"]:hover {
+    background-color: #5e4638;
+    color: #f5f5dc;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ACCOMMODATION */
+.accommodation {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.accommodation h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #212020;
+}
+
+.accommodation p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #0c0c0c;
+    border-bottom: 2px solid #d0a783;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Room Types */
+.room-types {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.room {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.room img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.room h3 {
+    font-size: 1.3em;
+    color: #0c0c0c;
+    margin: 0;
+}
+
+.room p {
+    margin: 5px 0;
+}
+
+
+
+/* Dining Options */
+.dining {
+    background-color: #f5e8d0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Booking Information */
+.booking-info {
+    background-color: #faf3e6;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.booking-info a {
+    color: #0c0c0c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.booking-info a:hover {
+    text-decoration: underline;
+}
+
+/* Services and Facilities */
+.services {
+    background-color: #f5e8d0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Nearby Attractions */
+.attractions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.attractions ul li {
+    margin: 5px 0;
+}
+
+/* Guest Reviews */
+.reviews {
+    background-color: #faf3e6;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.reviews blockquote {
+    margin: 10px 0;
+    padding-left: 10px;
+    border-left: 3px solid #d0a783;
+}
+
+/* Policies & FAQs */
+.policies {
+    background-color: #f5e8d0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.policies p {
+    margin: 5px 0;
+}
