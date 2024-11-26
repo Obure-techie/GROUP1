@@ -252,8 +252,8 @@ input, select, textarea {
 
 button[type="submit"] {
     width: 100%;
-    background-color: #f5f5dc; /* beige */
-    color: #5e4638; /* brown */
+    background-color: #f5f5dc; 
+    color: #5e4638; 
     border: 2px solid #5e4638;
     padding: 10px 20px;
     font-size: 18px;
@@ -545,3 +545,96 @@ h2 {
 }
 
 /* CONTACT US */
+.cont {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Section Headers */
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #5e4638;
+    border-bottom: 2px solid #d4a373;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* Contact Information */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #5e4638;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d4a373;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+/* Google Map */
+.contact-section iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Social Media Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #5e4638;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #d4a373;
+}
+
+
