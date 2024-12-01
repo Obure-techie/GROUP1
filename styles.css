@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 body {
     font-family: "Playfair Display", serif;
     background: linear-gradient(to left, #f5f5dc, #d4a373, #5e4638);
@@ -41,7 +39,7 @@ body {
 .navcontent ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 20px;
 }
 
 .navcontent ul li a {
